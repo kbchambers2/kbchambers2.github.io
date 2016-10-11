@@ -1,4 +1,4 @@
-Hello! Thank you visiting my Marvel Battle GitHub page. To view this project live on the internet, click here http://roomie.finalproject.surge.sh
+Hello! Thank you visiting my ROOMIE Application GitHub page. To view this project live on the internet, click here http://roomie.finalproject.surge.sh
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
