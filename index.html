@@ -10,14 +10,21 @@
   <meta name="author" content="">
 
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-85684832-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    ga('create', 'UA-85684832-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
   <title>Kevin</title>
 
@@ -94,9 +101,9 @@
   </header>
 
   <div class="video" style="display: flex; justify-content: center; background: #252620;">
-   <!-- <div class="video-wrapper"> -->
+    <!-- <div class="video-wrapper"> -->
     <iframe class="iframeVideo" width="864" height="486" src="https://www.youtube.com/embed/P6zueu_hMU4" frameborder="0" allowfullscreen style="margin-top: 60px; margin-bottom: 60px;"></iframe>
-        <!-- </div> -->
+    <!-- </div> -->
   </div>
 
   <section class="bg-primary" id="about">
@@ -109,8 +116,8 @@
           <hr class="light">
           <p class="text-faded">Hello there, my name is Kevin Chambers. I am a Front-End Developer living in Orlando, FL with a background in marketing. I have just completed a 12 week immersive Front-End Engineering course with over 1000 hours dedicated to becoming a web
             developer. I worked on 33 different Front-End projects, ranging from simple HTML5/CSS3 to fully functional ReactJS web applications with API calls.
-            <br><br> On my website, you will find my portfolio. Each portfolio piece highlights my work in Front-End Development including work in CSS3, HTML5, Javascript, ReactJS, APIs, and more! There is more information you can read on this page so please
-            feel free to stay a while. If you are looking for talent, do not hesitate to reach out in my contact section. Thanks and enjoy!</p>
+            <br><br> On my website, you will find my portfolio. Each portfolio piece highlights my work in Front-End Development including work in CSS3, HTML5, Javascript, ReactJS, APIs, and more! There is more information you can read on this page so
+            please feel free to stay a while. If you are looking for talent, do not hesitate to reach out in my contact section. Thanks and enjoy!</p>
           <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">See My Skills!</a>
         </div>
       </div>
@@ -162,8 +169,9 @@
 
   <section class="no-padding" id="portfolio">
     <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
-        <div class="col-lg-4 col-sm-6">
+      <!-- <div class="row no-gutter popup-gallery"> -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="row no-gutter popup-gallery">
           <a href="img/portfolio/fullsize/SurfandPaddle_Full.jpg" class="portfolio-box">
             <img src="img/portfolio/thumbnails/Surf_and_Paddle_thumbnail.jpg" class="img-responsive" alt="Surf_and_Paddle Image">
             <div class="portfolio-box-caption">
@@ -178,7 +186,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+          <div class="projectLiveBtn">
+            <a href="https://kbchambers2.github.io/Surf_and_Paddle/" class="liveText">View Surf & Paddle Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="row no-gutter popup-gallery">
           <a href="img/portfolio/fullsize/Marvel_Fight_photo.jpg" class="portfolio-box">
             <img src="img/portfolio/thumbnails/Marvel_Fight_thumbnail.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -193,7 +208,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+          <div class="projectLiveBtn">
+            <a href="http://marvel-battle.surge.sh/" class="liveText">View Marvel Battle Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="row no-gutter popup-gallery">
           <a href="img/portfolio/fullsize/Roomie_fullsize.jpg" class="portfolio-box">
             <img src="img/portfolio/thumbnails/Roomie_thumbnail.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
@@ -208,21 +230,48 @@
             </div>
           </a>
         </div>
-
-
-
+        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+          <div class="projectLiveBtn">
+            <a href="http://roomie-project.surge.sh/" class="liveText">View ROOMIE Live</a>
+          </div>
+        </div>
       </div>
-      <div class="liveButtons" style="display: flex; justify-content: space-around; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
-        <div class="projectLiveBtn">
+      <div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="row no-gutter popup-gallery">
+            <a href="img/portfolio/fullsize/Octocat_fullsize.png" class="portfolio-box">
+              <img src="img/portfolio/thumbnails/Octocat_thumbnail.png" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Week 1 Project Redone
+                  </div>
+                  <div class="project-name">
+                    Octocat HTML/CSS with Flexbox
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+            <div class="projectLiveBtn">
+              <a href="https://kbchambers2.github.io/octocat/" class="liveText">View Octocat Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="liveButtons" style="display: flex; justify-content: space-around; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;"> -->
+      <!-- <div class="projectLiveBtn">
           <a href="https://kbchambers2.github.io/Surf_and_Paddle/" class="liveText">View Surf & Paddle Live</a>
-        </div>
-        <div class="projectLiveBtn">
+        </div> -->
+      <!-- <div class="projectLiveBtn">
           <a href="http://marvel-battle.surge.sh/" class="liveText">View Marvel Battle Live</a>
-        </div>
-        <div class="projectLiveBtn">
+        </div> -->
+      <!-- <div class="projectLiveBtn">
           <a href="http://roomie-project.surge.sh/" class="liveText">View ROOMIE Live</a>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
   </section>
 
@@ -231,10 +280,10 @@
       <div class="call-to-action">
         <h2>Download My Resume!</h2>
         <div class="friendlyBox" style="display: flex; justify-content: center;">
-        <div style="padding-right: 10px;">
-        <a href="https://drive.google.com/open?id=0BxNatt-fO6RMWUhrM2xtLV90Q3M" class="btn btn-default btn-xl sr-button">&nbsp;&nbsp;&nbsp;Ink Friendly&nbsp;&nbsp;&nbsp;</a>&nbsp;</div>
-        <div>
-        <a href="https://drive.google.com/open?id=0BxNatt-fO6RMU29nUjd4cmhvRjg" class="btn btn-default btn-xl sr-button">Design Friendly</a></div>
+          <div style="padding-right: 10px;">
+            <a href="https://drive.google.com/open?id=0BxNatt-fO6RMWUhrM2xtLV90Q3M" class="btn btn-default btn-xl sr-button">&nbsp;&nbsp;&nbsp;Ink Friendly&nbsp;&nbsp;&nbsp;</a>&nbsp;</div>
+          <div>
+            <a href="https://drive.google.com/open?id=0BxNatt-fO6RMU29nUjd4cmhvRjg" class="btn btn-default btn-xl sr-button">Design Friendly</a></div>
         </div>
       </div>
     </div>
