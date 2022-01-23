@@ -27,9 +27,7 @@
   </script>
 
   <title>Kevin's Portfolio</title>
-<link rel="icon"
-  type="image/png"
-  href="img/portfolio/fullsize/favicon.png">
+  <link rel="icon" type="image/png" href="img/portfolio/fullsize/favicon.png">
   <!-- Bootstrap Core CSS -->
   <link href="extras/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -60,8 +58,8 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
+          <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        </button>
         <a class="navbar-brand page-scroll" href="#page-top">Kevin Chambers</a>
       </div>
 
@@ -103,10 +101,15 @@
   </header>
 
   <div class="video" style="display: flex; justify-content: center; background: #252620;">
-    <!-- <div class="video-wrapper"> -->
-    <iframe class="iframeVideo" width="864" height="486" src="https://www.youtube.com/embed/P6zueu_hMU4" frameborder="0" allowfullscreen style="margin-top: 60px; margin-bottom: 60px;"></iframe>
-    <!-- </div> -->
+
+        <iframe class="responsive-iframe" width="864" height="486" src="https://www.youtube.com/embed/P6zueu_hMU4" frameborder="0" allowfullscreen style="margin-top: 60px; margin-bottom: 60px;"></iframe>
+
   </div>
+
+  <!-- <div class="youtube-video-container" style="position: relative;overflow: hidden;width: 100%;display: flex;justify-content:center;background: #252620;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P6zueu_hMU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin-top: 60px;margin-bottom: 60px;"></iframe>
+  </div> -->
+
 
   <section class="bg-primary" id="about">
 
@@ -116,10 +119,11 @@
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2 class="section-heading">Hello...Is It Me You're Looking For?</h2>
           <hr class="light">
-          <p class="text-faded">Hello there, my name is Kevin Chambers. I am a Front-End Developer living in Orlando, FL with a background in marketing. I have just completed a 12 week immersive Front-End Engineering course with over 1000 hours dedicated to becoming a web
-            developer. I worked on 33 different Front-End projects, ranging from simple HTML5/CSS3 to fully functional ReactJS web applications with API calls.
-            <br><br> On my website, you will find my portfolio. Each portfolio piece highlights my work in Front-End Development including work in CSS3, HTML5, Javascript, ReactJS, APIs, and more! There is more information you can read on this page so
-            please feel free to stay a while. If you are looking for talent, do not hesitate to reach out in my contact section. Thanks and enjoy!</p>
+          <p class="text-faded">Hello there, my name is Kevin Chambers. I am a Front-End Developer living in Orlando, FL with a background in marketing. In 2016, I completed a 12 week immersive Front-End Engineering course with over 1000 hours
+            dedicated to becoming a web developer. I worked on 33 different Front-End projects, ranging from simple HTML5/CSS3 to fully functional ReactJS web applications with API calls. I have been working full-time as a developer since graduating
+            from the program.
+            <br><br>On my website, you will find my portfolio. Each portfolio piece highlights my work in Front-End Development including work in CSS3, HTML5, Javascript, ReactJS, AngularJS, APIs, and more! There is more information you can read on
+            this page so please feel free to stay a while. If you are looking for talent, do not hesitate to reach out in my contact section. Thanks and enjoy!</p>
           <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">See My Skills!</a>
         </div>
       </div>
@@ -148,7 +152,7 @@
           <div class="service-box">
             <i class="fa fa-4x fa-pied-piper text-primary sr-icons"></i>
             <h3>Languages</h3>
-            <p class="text-muted">HTML5, CSS3, JavaScript, AngularJS (Framework)</p>
+            <p class="text-muted">HTML5, CSS3, JavaScript, Node.js, AngularJS (Framework)</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
@@ -162,7 +166,7 @@
           <div class="service-box">
             <i class="fa fa-4x fa-lightbulb-o text-primary sr-icons"></i>
             <h3>Knowledge</h3>
-            <p class="text-muted">Firebase, Re-base, GitHub, RESTful APIs, UX/UI, Four51 Platform, Pageflex, Drift, Asana</p>
+            <p class="text-muted">Firebase, GitHub, RESTful APIs, SOAP Web Service, UX/UI, Four51 Platform, Pageflex, Drift, Asana, Workato, GoDaddy, Mailgun</p>
           </div>
         </div>
       </div>
@@ -196,29 +200,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="row no-gutter popup-gallery">
-          <a href="img/portfolio/fullsize/Marvel_Fight_photo.jpg" class="portfolio-box">
-            <img src="img/portfolio/thumbnails/Marvel_Fight_thumbnail.jpg" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Week 8
-                </div>
-                <div class="project-name">
-                  Marvel Battle ReactJS App
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
-          <div class="projectLiveBtn">
-            <a href="http://marvel-battle.surge.sh/" class="liveText" target="_blank">View Marvel Battle Live</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
+      <!-- <div class="col-lg-4 col-sm-6">
         <div class="row no-gutter popup-gallery">
           <a href="img/portfolio/fullsize/Roomie_fullsize.jpg" class="portfolio-box">
             <img src="img/portfolio/thumbnails/Roomie_thumbnail.jpg" class="img-responsive" alt="">
@@ -239,19 +221,63 @@
             <a href="http://roomie-project.surge.sh/" class="liveText" target="_blank">View ROOMIE Live</a>
           </div>
         </div>
+      </div> -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="row no-gutter popup-gallery">
+          <a href="img/portfolio/thumbnails/papeshconstruction_thumbnail.png" class="portfolio-box">
+            <img src="img/portfolio/thumbnails/papeshconstruction_thumbnail.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Papesh Construction Company Website
+                </div>
+                <div class="project-name">
+                  HTML/CSS/JavaScript
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+          <div class="projectLiveBtn">
+            <a href="http://papeshconstruction.com/" class="liveText" target="_blank">View Papesh Construction Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="row no-gutter popup-gallery">
+          <a href="img/portfolio/fullsize/astreea_fullpage.png" class="portfolio-box">
+            <img src="img/portfolio/thumbnails/astreea_thumbnail.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Astreea Retail Store
+                </div>
+                <div class="project-name">
+                  HTML/CSS/JavaScript/AngularJS
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
+          <div class="projectLiveBtn">
+            <a href="https://www.four51.com/UI/AutoLogon.hcf?id=12ebeb81-6635-4b15-a157-70cd645f9a17" class="liveText" target="_blank">View Astreea Live</a>
+          </div>
+        </div>
       </div>
       <div>
         <div class="col-lg-4 col-sm-6">
           <div class="row no-gutter popup-gallery">
-            <a href="img/portfolio/fullsize/Cornerstone_fullpage.jpg" class="portfolio-box">
-              <img src="img/portfolio/thumbnails/cshospice_thumbnail.png" class="img-responsive" alt="">
+            <a href="img/portfolio/fullsize/tag_fullpage.png" class="portfolio-box">
+              <img src="img/portfolio/thumbnails/tag_thumbnail.png" class="img-responsive" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Login/Registration Page
+                    Self-Registration Page with Email Confirmation
                   </div>
                   <div class="project-name">
-                    HTML/CSS/JS
+                    HTML/CSS/JavaScript/Node.js
                   </div>
                 </div>
               </div>
@@ -259,7 +285,7 @@
           </div>
           <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
             <div class="projectLiveBtn">
-              <a href="https://cshospice.store/index.html" class="liveText" target="_blank">View CS Login/Registration Page Live</a>
+              <a href="https://register.tagswagshop.com/" class="liveText" target="_blank">View CS Login/Registration Page Live</a>
             </div>
           </div>
         </div>
@@ -267,15 +293,15 @@
       <div>
         <div class="col-lg-4 col-sm-6">
           <div class="row no-gutter popup-gallery">
-            <a href="img/portfolio/thumbnails/papeshconstruction_thumbnail.png" class="portfolio-box">
-              <img src="img/portfolio/thumbnails/papeshconstruction_thumbnail.png" class="img-responsive" alt="">
+            <a href="img/portfolio/fullsize/adt_fullpage.png" class="portfolio-box">
+              <img src="img/portfolio/thumbnails/adt_thumbnail.png" class="img-responsive" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Papesh Construction
+                    ADT Employee Website
                   </div>
                   <div class="project-name">
-                    HTML/CSS/JS Company Website
+                    HTML/CSS/JavaScript/AngularJS
                   </div>
                 </div>
               </div>
@@ -283,7 +309,7 @@
           </div>
           <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
             <div class="projectLiveBtn">
-              <a href="http://papeshconstruction.com/" class="liveText" target="_blank">View Papesh Construction Live</a>
+              <a href="https://www.adtbrandxp.com/store/catalog" class="liveText" target="_blank">View ADT Live</a>
             </div>
           </div>
         </div>
@@ -291,15 +317,15 @@
       <div>
         <div class="col-lg-4 col-sm-6">
           <div class="row no-gutter popup-gallery">
-            <a href="img/portfolio/fullsize/mia_fullsize.jpg" class="portfolio-box">
-              <img src="img/portfolio/thumbnails/mia_thumbprint.png" class="img-responsive" alt="">
+            <a href="img/portfolio/fullsize/chewy_fullpage.png" class="portfolio-box">
+              <img src="img/portfolio/thumbnails/chewy_thumbnail.png" class="img-responsive" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    MIA Beer Retail Site
+                    Chewy Employee Store
                   </div>
                   <div class="project-name">
-                    HTML/CSS/AngularJS Retail Website
+                    HTML/CSS/JavaScript/AngularJS with SSO Integration
                   </div>
                 </div>
               </div>
@@ -307,7 +333,7 @@
           </div>
           <div class="liveButtons" style="text-align: center; padding-top: 20px;padding-bottom: 20px; padding-right: 20px;">
             <div class="projectLiveBtn">
-              <a href="https://www.miabeerstore.com/MIA_buyer/catalog/mia_home" class="liveText" target="_blank">View MIA Beer Retail Website Live</a>
+              <a href="https://www.four51.com/UI/AutoLogon.hcf?id=fee92786-c2bb-4468-9d36-4321e197ee76" class="liveText" target="_blank">View Chewy Store Live</a>
             </div>
           </div>
         </div>
